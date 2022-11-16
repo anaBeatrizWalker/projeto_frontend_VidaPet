@@ -3,11 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { MenuComponent } from './components/content/menu/menu.component';
+import { TableComponent } from './components/content/table/table.component';
+import { DropdownComponent } from './components/content/dropdown/dropdown.component';
+import { HeaderComponent } from './components/content/header/header.component';
+import { AdmHomeComponent } from './components/pages/adm-home/adm-home.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [
+    AppComponent,
+    MenuComponent,
+    TableComponent,
+    DropdownComponent,
+    HeaderComponent,
+    AdmHomeComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

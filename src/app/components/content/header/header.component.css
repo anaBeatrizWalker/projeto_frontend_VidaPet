@@ -1,0 +1,28 @@
+/*
+ * Global
+ */
+body {
+  font-size: 0.875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+}
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: rgb(91, 13, 180);
+}
+
+.navbar .navbar-toggler {
+  top: 0.25rem;
+  right: 1rem;
+}
+.navbar {
+  background-color: rgba(76, 27, 255, 0.733);
+}
