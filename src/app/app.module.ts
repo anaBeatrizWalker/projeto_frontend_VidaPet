@@ -8,6 +8,7 @@ import { TableComponent } from './components/content/table/table.component';
 import { DropdownComponent } from './components/content/dropdown/dropdown.component';
 import { HeaderComponent } from './components/content/header/header.component';
 import { AdmHomeComponent } from './components/pages/adm-home/adm-home.component';
+import { FuncionarioHomeComponent } from './components/pages/funcionario-home/funcionario-home.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -18,6 +19,7 @@ import { AdmHomeComponent } from './components/pages/adm-home/adm-home.component
     DropdownComponent,
     HeaderComponent,
     AdmHomeComponent,
+    FuncionarioHomeComponent,
   ],
   bootstrap: [AppComponent],
 })
