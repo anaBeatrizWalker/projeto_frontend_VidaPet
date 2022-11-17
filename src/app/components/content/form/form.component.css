@@ -1,0 +1,9 @@
+.formAgendamento {
+  padding: 25px;
+  background-color: rgba(178, 134, 219, 0.144);
+  border-radius: 10px;
+}
+
+button {
+  min-width: 150px;
+}

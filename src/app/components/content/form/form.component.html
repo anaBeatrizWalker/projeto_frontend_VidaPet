@@ -1,0 +1,102 @@
+<div
+  class="
+    d-flex
+    justify-content-between
+    flex-wrap flex-md-nowrap
+    align-items-center
+    pt-3
+    pb-2
+    mb-3
+    border-bottom
+  "
+>
+  <h1 class="h2">{{ titulo }}</h1>
+</div>
+<div class="formAgendamento w-75">
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Serviço</label>
+    <div class="form-floating">
+      <select
+        class="form-select"
+        id="floatingSelect"
+        aria-label="Escolha um serviço"
+      >
+        <option value="0">Banho e tosa</option>
+        <option value="1">Consulta</option>
+        <option value="2">Exame</option>
+        <option value="3">Outro</option>
+      </select>
+      <label for="floatingSelect">Escolha um serviço</label>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <div class="row">
+      <div class="col">
+        <label for="formGroupExampleInput" class="form-label">Data</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Data"
+          aria-label="Data"
+        />
+      </div>
+      <div class="col">
+        <label for="formGroupExampleInput" class="form-label">Horário</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Horário"
+          aria-label="Horário"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Observação</label>
+    <div class="form-floating">
+      <textarea
+        class="form-control"
+        placeholder="Anotações e observações"
+        id="floatingTextarea"
+        style="height: 100px"
+      ></textarea>
+      <label for="floatingTextarea">Anotações e observações</label>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Nome</label>
+    <div class="form-floating mb-3">
+      <input
+        type="email"
+        class="form-control"
+        id="floatingInput"
+        placeholder="name@example.com"
+      />
+      <label for="floatingInput">Nome do tutor</label>
+    </div>
+
+    <label for="formGroupExampleInput" class="form-label">Pet</label>
+    <div class="form-floating">
+      <select
+        class="form-select"
+        id="floatingSelect"
+        aria-label="Selecione um Pet"
+      >
+        <option value="0">Luna</option>
+        <option value="1">Gaia</option>
+        <option value="2">Tobias</option>
+      </select>
+      <label for="floatingSelect">Selecione um Pet</label>
+    </div>
+  </div>
+
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button class="btn btn-danger btn-lg me-md-2" type="button">
+      Cancelar
+    </button>
+    <button class="btn btn-success btn-lg" type="button">Enviar</button>
+  </div>
+</div>

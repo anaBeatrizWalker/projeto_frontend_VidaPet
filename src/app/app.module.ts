@@ -9,6 +9,8 @@ import { DropdownComponent } from './components/content/dropdown/dropdown.compon
 import { HeaderComponent } from './components/content/header/header.component';
 import { AdmHomeComponent } from './components/pages/adm-home/adm-home.component';
 import { FuncionarioHomeComponent } from './components/pages/funcionario-home/funcionario-home.component';
+import { AtendenteHomeComponent } from './components/pages/atendente-home/atendente-home.component';
+import { FormComponent } from './components/content/form/form.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -20,6 +22,8 @@ import { FuncionarioHomeComponent } from './components/pages/funcionario-home/fu
     HeaderComponent,
     AdmHomeComponent,
     FuncionarioHomeComponent,
+    AtendenteHomeComponent,
+    FormComponent
   ],
   bootstrap: [AppComponent],
 })
