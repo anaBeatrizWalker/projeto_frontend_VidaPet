@@ -11,6 +11,7 @@ import { AdmHomeComponent } from './components/pages/adm-home/adm-home.component
 import { FuncionarioHomeComponent } from './components/pages/funcionario-home/funcionario-home.component';
 import { AtendenteHomeComponent } from './components/pages/atendente-home/atendente-home.component';
 import { FormComponent } from './components/content/form/form.component';
+import { LoginComponent } from './components/pages/login/login.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -23,7 +24,8 @@ import { FormComponent } from './components/content/form/form.component';
     AdmHomeComponent,
     FuncionarioHomeComponent,
     AtendenteHomeComponent,
-    FormComponent
+    FormComponent,
+    LoginComponent
   ],
   bootstrap: [AppComponent],
 })
